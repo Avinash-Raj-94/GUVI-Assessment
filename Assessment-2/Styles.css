@@ -1,0 +1,182 @@
+.body{
+    margin: 40px;
+    width: 100%;
+    
+}
+
+.body3{
+    margin: 40px;
+    width: 90%;
+    background-color:rgb(214, 214, 214);
+    
+}
+
+
+input{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    white-space: initial;
+}
+
+select{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+table{
+    width: 98%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(214, 214, 214);
+}
+
+button{
+    margin-left: 40%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .para{
+      font-size: 15px;
+  }
+
+  .para1{
+      text-align: left;
+      font-size: 20px;
+  }
+
+  .button1{
+      max-width: 30%;
+      background-color: rgb(76, 192, 105);
+      float: right;
+      border-radius: 12px;
+  }
+
+  span{
+      font-size: 25px;
+      margin-right: 50px;
+  }
+
+  @media only screen and (max-width:1000px) {
+    /* For mobile phones: */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+      }
+  }
+
+  @media only screen and (max-width:900px) {
+    /* For mobile phones: */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+      }
+  }
+
+  @media only screen and (min-width:1000px) {
+    /* For mobile phones: */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+      }
+  }
+
+  @media only screen and (min-width:1000px) {
+    /* For mobile phones: */
+    .body{
+        width: 100%;
+        background-color: rgb(214, 214, 214);
+    }
+  }
+
+  .div{
+     margin:2% 20%;
+     background-color:  rgb(212, 212, 212);
+   }
+
+   .landbutton{
+    max-width: 9%;
+    background-color: rgb(216, 216, 216);
+    color: rgb(11, 94, 119);
+    float: right;
+    border-radius: 12px;
+   }
+
+   .textsize{
+       font-size: 30px;
+       margin: 10px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+   }
+
+   .footer1{
+    border-bottom:0.5px solid black;
+    margin-bottom: 15px;
+}
+
+.div1{
+    padding-bottom: 20px;
+}
+
+#button1{
+    max-width: 15%;
+    background-color: rgb(34, 129, 47);
+    color: rgb(252, 252, 252);
+    margin: 0% 40%;
+    border-radius: 12px;
+}
+
+#button2{
+    margin-top: 15px;
+    max-width: 20%;
+    background-color: rgb(104, 159, 231);
+    color: rgb(252, 252, 252);
+    margin: 1% 38%;
+    border-radius: 12px;
+}
+
+.div2{
+    background-color: rgb(119, 115, 115);
+    padding: 10px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .grid-item1 {
+    background-color: rgb(212, 212, 212);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  @media only screen and (min-width:400px) {
+
+    input{
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 10px;
+        white-space: initial;
+        align-items: flex-end   ;
+    }
+  }
